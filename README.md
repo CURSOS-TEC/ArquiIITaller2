@@ -6,39 +6,37 @@ Juan Esteban Navarro Camacho
 
 ### Compilar para pi.c serial
 ```bash 
-build_pi
+make build_pi
 ```	 
 ### Ejecutar pruebas para pi.c serial
 ```bash 
-test_pi
+make test_pi
 ```
 ### Compilar Pi loop
 ```bash 
-build_loop
+make build_loop
 ```
 ### Compilar SAXPY serial
 ```bash 
-build_SAXPY_serial
+make build_SAXPY_serial
 ```	
 ### Ejecutar pruebas para SAXPY serial
 ```bash 
-test_SAXPY_serial
+make test_SAXPY_serial
 ```	
 ### Compilar SAXPY paralelo
 ```bash 
-build_SAXPY_parallel
+make build_SAXPY_parallel
 ```	
 ### Ejecutar pruebas SAXPY paralelo
 ```bash 
-test_SAXPY_parallel
+make test_SAXPY_parallel
 ```
 ### Compilar Euler paralelo
 ```bash 
-build_EULER_parallel
+make build_EULER_parallel
 ```
 ### Ejecutar pruebas para Euler paralelo
 ```bash 
-test_EULER_parallel
+make test_EULER_parallel
 ```
-```bash 
-plot ```
